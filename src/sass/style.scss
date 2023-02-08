@@ -1,5 +1,12 @@
 @import 'base/variables';
 @import 'base/mixins';
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/advantages';
+@import 'blocks/title';
+@import 'blocks/consultation';
+@import 'blocks/forms';
 @import 'base/media';
 
 * {
@@ -10,11 +17,3 @@
     max-width: 945px;
     margin: 0 auto;
 }
-
-@import 'blocks/promo';
-@import 'blocks/header';
-@import 'blocks/buttons';
-@import 'blocks/advantages';
-@import 'blocks/title';
-@import 'blocks/consultation';
-@import 'blocks/forms';
