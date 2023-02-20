@@ -1,0 +1,42 @@
+.comments {
+    min-height: 946px;
+    padding-bottom: 70px;
+    &__item {
+        min-height: 170px;
+        display: flex;
+    }
+    &__text {
+        width: 675px;
+    }
+    &__title {
+        font-size: 18px;
+        font-weight: 700;
+        color: #0d0d0d;
+        line-height: 18px;
+    }
+    &__subtitle {
+        font-size: 14px;
+        font-weight: 400;
+        color: #646464;
+        margin-top: 10px;
+        line-height: 14px;
+    }
+    &__descr {
+        font-size: 16px;
+        font-weight: 400;
+        color: #0d0d0d;
+        margin-top: 19px;
+        line-height: 1.2;
+        
+    }
+    &__img {
+        margin-right: 62px;
+        height: 169px;
+        max-width: 100%;
+    }
+    hr {
+        margin: 50px 0;
+        color: #D3D3D3;
+    }
+   
+}
