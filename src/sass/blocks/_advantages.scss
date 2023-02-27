@@ -13,6 +13,9 @@
             display: block;
             margin: 0 auto;
             margin-bottom: 38px;
+            &:hover {
+                animation: pulse 1s ease infinite;   //animation
+            }
         }
     }
     &__subtitle {

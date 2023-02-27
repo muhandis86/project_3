@@ -113,7 +113,7 @@
         &__content {
             width: 50%;
             margin-right: 0px;
-            transform: translateX(-100%);
+            transform: translateX(-107%);
             transition: 0.5s all;
             &_active {
                 transform: translateX(0%);
@@ -121,6 +121,10 @@
             }
         }
         &__list {
+            ul {
+                padding-left: 0;
+                list-style-type: none;
+            }
             position: relative;
             width: 50%;
             margin-left: 20px;
@@ -129,7 +133,6 @@
             transition: 0.5s all;
             padding-left: 19px;
             margin-bottom: 0;
-            list-style-type: none;
             &_active {
                 transform: translateX(-100%);
                 margin-left: 0;
